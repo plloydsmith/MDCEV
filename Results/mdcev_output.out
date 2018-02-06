@@ -1,0 +1,148 @@
+MDCEV model for Simulated Data
+
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0          18          16409.6                      4.34e+03
+     1          54          15447.2    8.50713e-05            763  
+     2          90            14893             10            788  
+     3         108            14813              1       1.58e+03  
+     4         126            14569              1            713  
+     5         144            14435              1            501  
+     6         162          14297.9              1            693  
+     7         180          14164.3              1       1.29e+03  
+     8         198            13842              1       1.78e+03  
+     9         234          13470.1       0.266853       1.85e+03  
+    10         288          12177.2        2.89056       3.74e+03  
+    11         324          11767.9            0.5       2.59e+03  
+Objective function returned NaN; trying a new point...
+    12         361          11548.7       0.136949       1.62e+03  
+    13         397          11521.2        0.10597            763  
+    14         433          11492.1       0.349745       1.14e+03  
+    15         451          11313.8              1       1.02e+03  
+    16         487          10637.9       0.569898       3.61e+03  
+    17         505          10436.5              1       6.89e+03  
+    18         523          10165.3              1       1.51e+03  
+    19         541          9991.78              1       4.09e+03  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         559          9841.22              1       2.49e+03  
+    21         577          9809.83              1       2.26e+03  
+    22         595          9790.97              1            525  
+    23         613          9783.36              1            119  
+    24         631          9775.23              1            225  
+    25         649           9763.9              1            404  
+    26         667          9753.63              1            291  
+    27         685          9740.15              1            153  
+    28         703           9729.3              1            161  
+    29         721          9717.33              1            209  
+    30         739          9705.23              1            306  
+    31         757          9696.54              1            204  
+    32         775          9692.43              1            112  
+    33         793          9690.74              1           39.7  
+    34         811          9689.81              1           61.2  
+    35         829          9689.18              1           91.6  
+    36         847          9688.87              1           29.8  
+    37         865          9688.74              1           20.6  
+    38         883          9688.64              1           20.9  
+    39         901          9688.52              1           33.5  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         919          9688.34              1             50  
+    41         937          9688.07              1           52.4  
+    42         955          9687.66              1           43.3  
+    43         973          9687.11              1           30.8  
+    44         991          9686.52              1           67.3  
+    45        1009          9686.09              1           69.5  
+    46        1027           9685.9              1           40.5  
+    47        1045          9685.85              1           14.7  
+    48        1063          9685.84              1           2.44  
+    49        1081          9685.84              1           2.95  
+    50        1099          9685.84              1           3.58  
+    51        1117          9685.84              1            2.7  
+    52        1135          9685.83              1           1.65  
+    53        1153          9685.83              1            1.6  
+    54        1171          9685.83              1           2.26  
+    55        1189          9685.83              1           2.77  
+    56        1207          9685.83              1           2.04  
+    57        1225          9685.83              1          0.943  
+    58        1243          9685.83              1          0.768  
+    59        1261          9685.83              1          0.775  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    60        1279          9685.83              1          0.659  
+    61        1297          9685.83              1          0.257  
+    62        1315          9685.83              1         0.0464  
+    63        1333          9685.83              1          0.005  
+    64        1351          9685.83              1        0.00354  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',8.150173e-07,'selected',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+Computing finite-difference Hessian using objective function.
+
+
+**************************************************************
+*********************Iterations Completed*********************
+**************************************************************
+
+Model type: Hybrid gamma profile 
+One scale parameter estimated 
+Number of observations = 500.0000 
+Number of estimated parameters = 17.0000 
+Total time to complete estimation was 1.2040 seconds.
+The log-likelihood value is:  -9685.8276
+BIC =  19477.3035
+AIC = 19405.6552
+
+**************************************************************
+*********************Parameter Estimates**********************
+**************************************************************
+
+RESULTS FOR PSI PARAMETERS, PSI 
+************************************************************
+variables     estimate   std. err. t-statistic 
+constant       -4.9956      0.0857    -58.3127 
+attribute1      0.4913      0.0156     31.4842 
+attribute2      0.5070      0.0153     33.0589 
+socio1          1.5076      0.0172     87.5358 
+socio2          2.9928      0.0280    107.0420 
+
+RESULTS FOR SATIATION PARAMETERS, ALPHA (TRANSFORMED: ALPHA=1-EXP(EST)) 
+************************************************************
+variables    estimate   std. err. t-statistic 
+alpha1         0.6002      0.0036    165.7241 
+alpha2         0.6002      0.0036    165.7241 
+alpha3         0.6002      0.0036    165.7241 
+alpha4         0.6002      0.0036    165.7241 
+alpha5         0.6002      0.0036    165.7241 
+alpha6         0.6002      0.0036    165.7241 
+alpha7         0.6002      0.0036    165.7241 
+alpha8         0.6002      0.0036    165.7241 
+alpha9         0.6002      0.0036    165.7241 
+alpha10        0.6002      0.0036    165.7241 
+alpha11        0.6002      0.0036    165.7241 
+
+RESULTS FOR TRANSLATION PARAMETERS, GAMMA (TRANSFORMED: GAMMA=EXP(EST)) 
+************************************************************
+variables    estimate   std. err. t-statistic 
+gamma2         2.0373      0.1137     17.9246 
+gamma3         2.1580      0.1095     19.7106 
+gamma4         2.0230      0.1131     17.8857 
+gamma5         2.0457      0.1044     19.5980 
+gamma6         2.0226      0.1130     17.9009 
+gamma7         1.9713      0.0957     20.6000 
+gamma8         1.9195      0.0985     19.4796 
+gamma9         2.0401      0.0962     21.2069 
+gamma10        1.9235      0.0977     19.6875 
+gamma11        2.0234      0.0994     20.3491 
+
+RESULTS FOR SCALE PARAMETERS (TRANSFORMED: SCALE = EXP(EST)) 
+************************************************************
+variables    estimate   std. err. t-statistic 
+scale          0.1072      0.0018     60.7185 
+
