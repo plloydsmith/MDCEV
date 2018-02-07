@@ -11,4 +11,8 @@ For more details on the welfare simulation:
 
 Lloyd-Smith, P (2018). ["A New Approach to Calculating Welfare Measures in Kuhn-Tucker Demand Models."](https://www.sciencedirect.com/science/article/pii/S1755534517300994) Journal of Choice Modeling, 26: 19-27
 
-The codes are published under a Creative Commons Attribution 4.0 License.
+The code is published under a Creative Commons Attribution 4.0 License.
+
+**Citation**:
+
+Abbott, J, and Lloyd-Smith, P (2017) MDCEV Model Code (Version 1.0) [Source code]. https://github.com/plloydsmith/MDCEV
