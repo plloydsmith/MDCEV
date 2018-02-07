@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Maximum likelihood estimation of Chandra Bhat's               %
 % MCDEV specification with a single essential outside good      %
-% Version 3.0 - March 2017                                      %
+% Version 1.0 - March 2017                                      %
 %                                                               %
 % Coded by:                                                     %
 % Joshua Abbott                                                 %
