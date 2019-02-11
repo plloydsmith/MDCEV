@@ -3,6 +3,8 @@ MDCEV Model Code
 Description:
 Multiple Discrete-Continuous Extreme Value (MDCEV) code for model estimation and demand/welfare simulation.
 
+Note: For R code, please see [https://github.com/plloydsmith/rmdcev](https://github.com/plloydsmith/rmdcev)
+
 For more details on the model specification:
 
 Bhat, C.R. (2008) ["The Multiple Discrete-Continuous Extreme Value (MDCEV) Model: Role of Utility Function Parameters, Identification Considerations, and Model Extensions."](https://www.sciencedirect.com/science/article/pii/S0191261507000677) Transportation Research Part B, 42(3): 274-303. 
